@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2.5;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/1200x/7a/8f/8e/7a8f8edc856fb9974826dea910cf96cd.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/f2/2e/66/f22e66c0d8b83a4370bcfbf1c3d029a8.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/736x/47/e0/a1/47e0a15438807c9ff1a9c6203cb69cae.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/af/9b/3e/af9b3e43383b5d49f998acc99226d4fa.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/736x/3a/7a/b7/3a7ab72b8ccb90c4797c391e3891f4e3.jpg);
+}/*# sourceMappingURL=style.css.map */
