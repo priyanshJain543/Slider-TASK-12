@@ -8,7 +8,7 @@ When you hover over an image, it smoothly expands, creating a clean and modern U
 ## 🚀 Live Demo
 
 🔗 Live Preview:  
-👉 
+👉  (*https://priyanshjain543.github.io/Slider-TASK-12/*)
 
 ---
 
